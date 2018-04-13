@@ -44,7 +44,7 @@ insightful observation:
 Placing borrow rules' restrictions on the entire language in order to serve
 what is only a problem in multithreaded programs seemed a bit... unbalanced. It
 wasn't until I started reading the [Rustonomicon][nom-answer] that I found the
-answer. Buried deep in that tomb of dark secrets (okay it is like the third
+answer. Buried deep in that tome of dark secrets (okay it is like the third
 page) is the real reason why you can only have one mutable reference at a time.
 Here is the example used to demonstrate the point:
 
