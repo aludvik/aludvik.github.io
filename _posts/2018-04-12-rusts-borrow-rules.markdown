@@ -104,7 +104,7 @@ switch back to mutable references in a controlled way:
        | C  &mut
        |\
      & D |
-         E  RecCell<T> <- you can turn this into an &mut at runtime
+         E  RefCell<T> <- you can turn this into an &mut at runtime
 
 # Further Reading
 
